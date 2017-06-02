@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844723BF1EE21BED00270D03 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 844723BE1EE21BED00270D03 /* libsqlite3.dylib */; };
+		849D5EAD1B1DC60300C7F603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5EAC1B1DC60300C7F603 /* main.m */; };
+		849D5EB01B1DC60300C7F603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5EAF1B1DC60300C7F603 /* AppDelegate.m */; };
+		849D5EB81B1DC60300C7F603 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D5EB71B1DC60300C7F603 /* Images.xcassets */; };
+		849D5EBB1B1DC60300C7F603 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D5EB91B1DC60300C7F603 /* LaunchScreen.xib */; };
+		849D5EC71B1DC60400C7F603 /* DreamInvestBankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5EC61B1DC60400C7F603 /* DreamInvestBankTests.m */; };
+		849D5ED61B1EF6A400C7F603 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5ED41B1EF6A400C7F603 /* MainVC.m */; };
+		849D5ED71B1EF6A400C7F603 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D5ED51B1EF6A400C7F603 /* MainVC.xib */; };
+		849D5EDB1B1F173E00C7F603 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5ED91B1F173700C7F603 /* LoginVC.m */; };
+		849D5EDC1B1F174100C7F603 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D5EDA1B1F173700C7F603 /* LoginVC.xib */; };
+		849D5EDF1B1F24E300C7F603 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5EDE1B1F24E300C7F603 /* FMDatabase.m */; };
+		849D5EE61B1F310300C7F603 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5EE31B1F310300C7F603 /* FMDatabaseQueue.m */; };
+		84DAB4D11B1F577A00512BEE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAB4CF1B1F577A00512BEE /* TableViewController.m */; };
+		84DAB4D21B1F577A00512BEE /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAB4D01B1F577A00512BEE /* TableViewController.xib */; };
+		84DAB4D41B1FA30A00512BEE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DAB4D31B1FA30A00512BEE /* MapKit.framework */; };
+		84DAB4D71B1FA70000512BEE /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAB4D61B1FA70000512BEE /* AddressAnnotation.m */; };
+		84E1CFA71B1F41F8002A02BB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1CFA61B1F41F8002A02BB /* FMResultSet.m */; };
+		84E1CFA91B1F47BF002A02BB /* tp9.db in Resources */ = {isa = PBXBuildFile; fileRef = 84E1CFA81B1F47BF002A02BB /* tp9.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849D5EC11B1DC60300C7F603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849D5E9F1B1DC60300C7F603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849D5EA61B1DC60300C7F603;
+			remoteInfo = DreamInvestBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844723BE1EE21BED00270D03 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../libsqlite3.dylib; sourceTree = "<group>"; };
+		849D5EA71B1DC60300C7F603 /* DreamInvestBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamInvestBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D5EAB1B1DC60300C7F603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D5EAC1B1DC60300C7F603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849D5EAE1B1DC60300C7F603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849D5EAF1B1DC60300C7F603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849D5EB71B1DC60300C7F603 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849D5EBA1B1DC60300C7F603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849D5EC01B1DC60300C7F603 /* DreamInvestBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamInvestBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D5EC51B1DC60400C7F603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D5EC61B1DC60400C7F603 /* DreamInvestBankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamInvestBankTests.m; sourceTree = "<group>"; };
+		849D5ED31B1EF6A400C7F603 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		849D5ED41B1EF6A400C7F603 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		849D5ED51B1EF6A400C7F603 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		849D5ED81B1F173700C7F603 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		849D5ED91B1F173700C7F603 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		849D5EDA1B1F173700C7F603 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		849D5EDD1B1F24E300C7F603 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../../fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		849D5EDE1B1F24E300C7F603 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../../fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		849D5EE21B1F310300C7F603 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
+		849D5EE31B1F310300C7F603 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = SOURCE_ROOT; };
+		84DAB4CE1B1F577A00512BEE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84DAB4CF1B1F577A00512BEE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		84DAB4D01B1F577A00512BEE /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		84DAB4D31B1FA30A00512BEE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84DAB4D51B1FA70000512BEE /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		84DAB4D61B1FA70000512BEE /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
+		84E1CFA51B1F41F8002A02BB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/fmdb/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		84E1CFA61B1F41F8002A02BB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/fmdb/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		84E1CFA81B1F47BF002A02BB /* tp9.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = tp9.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849D5EA41B1DC60300C7F603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844723BF1EE21BED00270D03 /* libsqlite3.dylib in Frameworks */,
+				84DAB4D41B1FA30A00512BEE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D5EBD1B1DC60300C7F603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849D5E9E1B1DC60300C7F603 = {
+			isa = PBXGroup;
+			children = (
+				84DAB4D31B1FA30A00512BEE /* MapKit.framework */,
+				84E1CFA81B1F47BF002A02BB /* tp9.db */,
+				844723BE1EE21BED00270D03 /* libsqlite3.dylib */,
+				849D5EA91B1DC60300C7F603 /* DreamInvestBank */,
+				849D5EC31B1DC60400C7F603 /* DreamInvestBankTests */,
+				849D5EA81B1DC60300C7F603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849D5EA81B1DC60300C7F603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D5EA71B1DC60300C7F603 /* DreamInvestBank.app */,
+				849D5EC01B1DC60300C7F603 /* DreamInvestBankTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D5EA91B1DC60300C7F603 /* DreamInvestBank */ = {
+			isa = PBXGroup;
+			children = (
+				84DAB4D51B1FA70000512BEE /* AddressAnnotation.h */,
+				84DAB4D61B1FA70000512BEE /* AddressAnnotation.m */,
+				84DAB4CE1B1F577A00512BEE /* TableViewController.h */,
+				84DAB4CF1B1F577A00512BEE /* TableViewController.m */,
+				84DAB4D01B1F577A00512BEE /* TableViewController.xib */,
+				84E1CFA51B1F41F8002A02BB /* FMResultSet.h */,
+				84E1CFA61B1F41F8002A02BB /* FMResultSet.m */,
+				849D5EE21B1F310300C7F603 /* FMDatabaseQueue.h */,
+				849D5EE31B1F310300C7F603 /* FMDatabaseQueue.m */,
+				849D5EDD1B1F24E300C7F603 /* FMDatabase.h */,
+				849D5EDE1B1F24E300C7F603 /* FMDatabase.m */,
+				849D5ED81B1F173700C7F603 /* LoginVC.h */,
+				849D5ED91B1F173700C7F603 /* LoginVC.m */,
+				849D5EDA1B1F173700C7F603 /* LoginVC.xib */,
+				849D5EAE1B1DC60300C7F603 /* AppDelegate.h */,
+				849D5EAF1B1DC60300C7F603 /* AppDelegate.m */,
+				849D5ED31B1EF6A400C7F603 /* MainVC.h */,
+				849D5ED41B1EF6A400C7F603 /* MainVC.m */,
+				849D5ED51B1EF6A400C7F603 /* MainVC.xib */,
+				849D5EB71B1DC60300C7F603 /* Images.xcassets */,
+				849D5EB91B1DC60300C7F603 /* LaunchScreen.xib */,
+				849D5EAA1B1DC60300C7F603 /* Supporting Files */,
+			);
+			path = DreamInvestBank;
+			sourceTree = "<group>";
+		};
+		849D5EAA1B1DC60300C7F603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D5EAB1B1DC60300C7F603 /* Info.plist */,
+				849D5EAC1B1DC60300C7F603 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849D5EC31B1DC60400C7F603 /* DreamInvestBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				849D5EC61B1DC60400C7F603 /* DreamInvestBankTests.m */,
+				849D5EC41B1DC60400C7F603 /* Supporting Files */,
+			);
+			path = DreamInvestBankTests;
+			sourceTree = "<group>";
+		};
+		849D5EC41B1DC60400C7F603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D5EC51B1DC60400C7F603 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849D5EA61B1DC60300C7F603 /* DreamInvestBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D5ECA1B1DC60400C7F603 /* Build configuration list for PBXNativeTarget "DreamInvestBank" */;
+			buildPhases = (
+				849D5EA31B1DC60300C7F603 /* Sources */,
+				849D5EA41B1DC60300C7F603 /* Frameworks */,
+				849D5EA51B1DC60300C7F603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamInvestBank;
+			productName = DreamInvestBank;
+			productReference = 849D5EA71B1DC60300C7F603 /* DreamInvestBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849D5EBF1B1DC60300C7F603 /* DreamInvestBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D5ECD1B1DC60400C7F603 /* Build configuration list for PBXNativeTarget "DreamInvestBankTests" */;
+			buildPhases = (
+				849D5EBC1B1DC60300C7F603 /* Sources */,
+				849D5EBD1B1DC60300C7F603 /* Frameworks */,
+				849D5EBE1B1DC60300C7F603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849D5EC21B1DC60300C7F603 /* PBXTargetDependency */,
+			);
+			name = DreamInvestBankTests;
+			productName = DreamInvestBankTests;
+			productReference = 849D5EC01B1DC60300C7F603 /* DreamInvestBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849D5E9F1B1DC60300C7F603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DreamTeam;
+				TargetAttributes = {
+					849D5EA61B1DC60300C7F603 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					849D5EBF1B1DC60300C7F603 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 849D5EA61B1DC60300C7F603;
+					};
+				};
+			};
+			buildConfigurationList = 849D5EA21B1DC60300C7F603 /* Build configuration list for PBXProject "DreamInvestBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849D5E9E1B1DC60300C7F603;
+			productRefGroup = 849D5EA81B1DC60300C7F603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849D5EA61B1DC60300C7F603 /* DreamInvestBank */,
+				849D5EBF1B1DC60300C7F603 /* DreamInvestBankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849D5EA51B1DC60300C7F603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1CFA91B1F47BF002A02BB /* tp9.db in Resources */,
+				849D5ED71B1EF6A400C7F603 /* MainVC.xib in Resources */,
+				849D5EBB1B1DC60300C7F603 /* LaunchScreen.xib in Resources */,
+				84DAB4D21B1F577A00512BEE /* TableViewController.xib in Resources */,
+				849D5EDC1B1F174100C7F603 /* LoginVC.xib in Resources */,
+				849D5EB81B1DC60300C7F603 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D5EBE1B1DC60300C7F603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D5EA31B1DC60300C7F603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D5ED61B1EF6A400C7F603 /* MainVC.m in Sources */,
+				84DAB4D71B1FA70000512BEE /* AddressAnnotation.m in Sources */,
+				849D5EB01B1DC60300C7F603 /* AppDelegate.m in Sources */,
+				84E1CFA71B1F41F8002A02BB /* FMResultSet.m in Sources */,
+				849D5EDB1B1F173E00C7F603 /* LoginVC.m in Sources */,
+				849D5EDF1B1F24E300C7F603 /* FMDatabase.m in Sources */,
+				849D5EAD1B1DC60300C7F603 /* main.m in Sources */,
+				849D5EE61B1F310300C7F603 /* FMDatabaseQueue.m in Sources */,
+				84DAB4D11B1F577A00512BEE /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D5EBC1B1DC60300C7F603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D5EC71B1DC60400C7F603 /* DreamInvestBankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849D5EC21B1DC60300C7F603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849D5EA61B1DC60300C7F603 /* DreamInvestBank */;
+			targetProxy = 849D5EC11B1DC60300C7F603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849D5EB91B1DC60300C7F603 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D5EBA1B1DC60300C7F603 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849D5EC81B1DC60400C7F603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849D5EC91B1DC60400C7F603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849D5ECB1B1DC60400C7F603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamInvestBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849D5ECC1B1DC60400C7F603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamInvestBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849D5ECE1B1DC60400C7F603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamInvestBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInvestBank.app/DreamInvestBank";
+			};
+			name = Debug;
+		};
+		849D5ECF1B1DC60400C7F603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamInvestBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInvestBank.app/DreamInvestBank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849D5EA21B1DC60300C7F603 /* Build configuration list for PBXProject "DreamInvestBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D5EC81B1DC60400C7F603 /* Debug */,
+				849D5EC91B1DC60400C7F603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D5ECA1B1DC60400C7F603 /* Build configuration list for PBXNativeTarget "DreamInvestBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D5ECB1B1DC60400C7F603 /* Debug */,
+				849D5ECC1B1DC60400C7F603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D5ECD1B1DC60400C7F603 /* Build configuration list for PBXNativeTarget "DreamInvestBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D5ECE1B1DC60400C7F603 /* Debug */,
+				849D5ECF1B1DC60400C7F603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849D5E9F1B1DC60300C7F603 /* Project object */;
+}
