@@ -52,6 +52,7 @@
     }
     
     FMResultSet* rs = [db executeQuery:query];
+    
     if([rs next]) {
         NSString* rightPass = [rs stringForColumn:@"password"];
         userId = [rs intForColumn:@"id"];
