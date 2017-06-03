@@ -44,11 +44,13 @@
     NSString* query = @"SELECT * FROM user WHERE login=\"";
     query = [[query stringByAppendingString:name] stringByAppendingString:@"\""];
     NSInteger userId;
+    
     FMDatabase* db = [FMDatabase databaseWithPath:@"/Users/admin/Downloads/tp9/DreamInvestBank/tp9.db"];
        if(![db open]) {
         [[self errorLabel] setText:@"DB error."];
         return;
     }
+    
     FMResultSet* rs = [db executeQuery:query];
     if([rs next]) {
         NSString* rightPass = [rs stringForColumn:@"password"];
